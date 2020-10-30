@@ -10,10 +10,12 @@ Fork or clone this repo and...
 Please complete as much of the task as you can in a 2 hour timeframe. We're not expecting you to return a completely finished project, but you should be prepared to talk about the choices you've made. We'd like to see your Git commit history to understand how you've built up your solution, so please be sure to make commits as you go along.
 
 ## Installation
-Fork or clone this repo and run `npm install` to get started.
+Fork or clone this repo and run `npm install`.
 
 ## Getting Started
 `npm run api` will give you a local API providing limited information about locations and weather.
+
+As described above, you should add your own choice of frontend framework. We use Vue and TypeScript and we'd love to see you use those if you're already familiar with them, but if not please choose whatever helps you to display your skills most effectively.
 
 ## Suggested Resources
 Feel free to use any of the below if you find them helpful:
