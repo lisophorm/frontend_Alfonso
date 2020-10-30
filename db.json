@@ -1,0 +1,74 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "postcode": "E8 3DB",
+      "eastings": 533638,
+      "northings": 184527,
+      "country": "England",
+      "nhs_ha": "London",
+      "longitude": -0.074253,
+      "latitude": 51.543824
+    },
+    {
+      "id": 2,
+      "postcode": "M5 3AA",
+      "eastings": 381457,
+      "northings": 397673,
+      "country": "England",
+      "nhs_ha": "North West",
+      "longitude": -2.280845,
+      "latitude": 53.475455
+    },
+    {
+      "id": 3,
+      "postcode": "B9 4BB",
+      "eastings": 408295,
+      "northings": 286771,
+      "country": "England",
+      "nhs_ha": "West Midlands",
+      "longitude": -1.879291,
+      "latitude": 52.478819
+    },
+    {
+      "id": 4,
+      "postcode": "EX1 3AB",
+      "eastings": 294187,
+      "northings": 93121,
+      "country": "England",
+      "nhs_ha": "South West",
+      "longitude": -3.500568,
+      "latitude": 50.728041
+    }
+  ],
+  "weather": [
+    {
+      "id": 1,
+      "latlong": "51.543824_-0.074253",
+      "temperature": "12",
+      "precipitation_prob": "95",
+      "weather": "rain"
+    },
+    {
+      "id": 2,
+      "latlong": "53.475455_-2.280845",
+      "temperature": "22",
+      "precipitation_prob": "0",
+      "weather": "sun"
+    },
+    {
+      "id": 3,
+      "latlong": "52.478819_-1.879291",
+      "temperature": "19",
+      "precipitation_prob": "45",
+      "weather": "cloud"
+    },
+    {
+      "id": 4,
+      "latlong": "50.728041_-3.500568",
+      "temperature": "-5",
+      "precipitation_prob": "34",
+      "weather": "snow"
+    }
+  ]
+}
