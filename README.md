@@ -19,3 +19,4 @@ Fork or clone this repo and run `npm install` to get started.
 Feel free to use any of the below if you find them helpful:
 - https://postcodes.io
 - [Latitude and Longitude - Wikipedia](https://en.wikipedia.org/wiki/Geographic_coordinate_system#Latitude_and_longitude)
+- https://openweathermap.org/weather-conditions#Icon-list
