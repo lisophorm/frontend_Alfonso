@@ -19,6 +19,7 @@ As described above, you should add your own choice of frontend framework. We use
 
 ## Suggested Resources
 Feel free to use any of the below if you find them helpful:
+- The provided api uses https://github.com/typicode/json-server - documentation on how to query and retrieve the data available to you can be found there.
 - https://postcodes.io
 - [Latitude and Longitude - Wikipedia](https://en.wikipedia.org/wiki/Geographic_coordinate_system#Latitude_and_longitude)
 - https://openweathermap.org/weather-conditions#Icon-list
