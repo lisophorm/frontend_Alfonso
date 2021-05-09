@@ -1,3 +1,4 @@
+// from location service
 export interface LocationItem {
   'id': number;
   'postcode': string;

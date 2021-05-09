@@ -21,7 +21,7 @@ export class WeatherService {
   constructor(private _http: HttpClient) {
     this._http.get(' http://localhost:3030/weather')
       .subscribe((data: Array<weatherItem>) => {
-
+        //  let's assume this is just a mock service for prototyping
         this._weatherLocations = data;
         console.log('weather:', this._weatherLocations);
 
@@ -32,7 +32,7 @@ export class WeatherService {
 
   // brutal function that returns the closest item
 
-  public closest(lat, long):weatherItem {
+  public closest(lat, long): weatherItem {
     let closestItem: number = 0;
     let closestItemPointer: number = 0;
     for (let i = 0; i < this._weatherLocations.length; i++) {

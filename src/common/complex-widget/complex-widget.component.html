@@ -1,1 +1,5 @@
-<p>complex-widget works!</p>
+<div class="box" *ngIf="widgetProps.desc != ''">
+  <img [src]="widgetProps.iconFile"/>
+  <p>Weather info: {{widgetProps.desc}}</p>
+  <p>Img src: {{widgetProps.iconFile}}</p>
+</div>

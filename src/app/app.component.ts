@@ -1,3 +1,5 @@
+// my next step would have been to build a separate component for search
+
 import {Component, OnInit} from '@angular/core';
 import {LocationsService} from '../common/services/locations.service';
 import {FormControl} from '@angular/forms';

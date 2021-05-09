@@ -1,3 +1,9 @@
 p {
-  color:white;
+  color: white;
+}
+
+.box {
+  border: 1px solid black;
+  margin: 14px;
+  padding: 14px;
 }

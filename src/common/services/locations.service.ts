@@ -25,7 +25,7 @@ export class LocationsService {
     this._http.get('http://localhost:3030/locations')
       .subscribe((data: Array<LocationItem>) => {
         // definitely not what I would do on a live project
-        // but let's assime this is just a mock service for prototyping
+        // but let's assume this is just a mock service for prototyping
         this._locationList = data;
         console.log('locations:', this._locationList);
         for (let i = 0; i < this._locationList.length; i++) {
