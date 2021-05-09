@@ -6,11 +6,13 @@ export interface weatherItem {
     lat: number;
   };
   weather:
-    {
-      id: number;
-      main: string;
-      description: string;
-      icon: string;
-    }
+    [
+      {
+        id: number;
+        main: string;
+        description: string;
+        icon: string;
+      }
+    ]
 
 }

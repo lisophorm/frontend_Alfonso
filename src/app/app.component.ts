@@ -19,6 +19,8 @@ export class AppComponent implements OnInit {
   filteredOptions: Observable<string[]>;
   postCodeSelected: string;
 
+  public selectedWheatherItem: weatherItem = {} as weatherItem;
+
   constructor(public locationService: LocationsService,
               public weaterService: WeatherService,
               public weatherIconservice: WeatherIconService) {
@@ -47,6 +49,9 @@ export class AppComponent implements OnInit {
     const itemSelected = this.locationService.search(this.postCodeSelected);
 
     console.log('found', itemSelected);
+
+    this.selectedWheatherItem = this.weaterService.closest(itemSelected.latitude, itemSelected.longitude);
+    console.log('closestitem', this.selectedWheatherItem);
 
   }
 }
