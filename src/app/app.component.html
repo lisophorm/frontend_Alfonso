@@ -1,1 +1,20 @@
-<div>hello world</div>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Enter postcode</mat-label>
+    <input type="text"
+           placeholder="Pick one"
+           aria-label="Number"
+           matInput
+           [(ngModel)]="postCodeSelected"
+           [formControl]="myControl"
+           [matAutocomplete]="auto">
+    <mat-autocomplete #auto="matAutocomplete" (optionSelected)="searchForItem()">
+      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+        {{option}}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+  <button mat-raised-button color="warn" (click)="searchForItem()">Search</button>
+</form>
+
+
