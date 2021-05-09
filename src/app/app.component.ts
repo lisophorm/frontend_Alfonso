@@ -1,4 +1,7 @@
 import {Component} from '@angular/core';
+import {WeatherIconService} from "../common/services/weather-icon-service";
+import {WeatherService} from "../common/services/weather.service";
+import {LocationsService} from "../common/services/locations.service";
 
 @Component({
   selector: 'app-root',
@@ -8,7 +11,9 @@ import {Component} from '@angular/core';
 export class AppComponent {
   title = 'AlfonsoSample';
 
-  constructor() {
+  constructor(public locationService: LocationsService,
+              public weaterService: WeatherService,
+              public weatherIconservice: WeatherIconService) {
     // @ts-ignore
     console.log('hello');
   }
