@@ -44,6 +44,9 @@ export class AppComponent implements OnInit {
   public searchForItem() {
     console.log('search for item', this.postCodeSelected);
 
+    const itemSelected = this.locationService.search(this.postCodeSelected);
+
+    console.log('found', itemSelected);
 
   }
 }

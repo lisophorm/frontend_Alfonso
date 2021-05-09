@@ -10,10 +10,12 @@ import {MatInputModule} from "@angular/material/input";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 import {MatButtonModule} from "@angular/material/button";
+import {ComplexWidgetComponent} from "../common/complex-widget/complex-widget.component";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ComplexWidgetComponent,
   ],
   imports: [
     BrowserModule,

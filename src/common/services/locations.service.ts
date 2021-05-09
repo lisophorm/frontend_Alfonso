@@ -38,6 +38,12 @@ export class LocationsService {
         console.log('ERROR WITH THIS');
       });
   }
+  public search(code): LocationItem {
+    console.log('locationservice init');
+    return this._locationList.find(item => {
+      return item.postcode === code;
+    });
 
+  }
 
 }
